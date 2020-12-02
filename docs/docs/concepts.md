@@ -12,6 +12,9 @@ Les caractéristiques qui composent une entité peuvent ête partagées avec d'a
 Les propriétés qui décrivent les entités de notre modèle de données peuvent ête sourcées manuellement ou automatiquement via des connecteurs sur des bases en opendata.
 L'avantage de notre solution est qu'il est simple d'ajuster les besoins en fonction des contraintes liées à la nature de la crise, et de suggérer de nouvelles solutions adaptées issues de l'évolution dynamique de notre modèle de données. Cette approche est issue des principes liés au websémantique.
 
+Des données qui sont présentent sur la cartographie peuvent être ramenées à un graph en exploitant la sémantique associés aux propriétés. 
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/fr/map/zones-des-caves-inondees-en-1910-en-val-de-marne-e_531555?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/zones-des-caves-inondees-en-1910-en-val-de-marne-e_531555">Voir en plein écran</a></p>
+
 ![model](../static/img/model1.png)
 
 Nous souhaitons donner la possibilité aux administrateurs de spécifier des règles pour associer des besoins à des profils (Commune, Personne...)
