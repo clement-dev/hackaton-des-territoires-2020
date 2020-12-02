@@ -14,20 +14,17 @@ docker-compose up
 
 ### Documentation
 
-```bash
-http://localhost:3000
-```
+[http://localhost:3000](http://localhost:3000)
 
 ### Neo4j
 
 ```bash
-http://localhost:7474
+
+[http://localhost:7474](http://localhost:7474)
 id: neo4j
 pwd: admin
 ```
 
 ### API
 
-```bash
-http://localhost:4000
-```
+[http://localhost:4000](http://localhost:4000)

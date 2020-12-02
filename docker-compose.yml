@@ -7,9 +7,19 @@ services:
   #     dockerfile: ./.docker/Dockerfile.dev
   #   image: "clement-dev/knowledgegraph-api:0.0.0"
   #   ports:
-  #     - "0.0.0.0:4000:4000"
+  #     - "0.0.0.0:s4000:4000"
   #   volumes:
   #     - ./api/src:/app/src
+  #   networks:
+  #     - hackaton-net
+
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: ./.docker/Dockerfile.dev
+  #   image: "clement-dev/hackaton-frontend:0.0.0"
+  #   ports:
+  #     - "0.0.0.0:3003:3000"
   #   networks:
   #     - hackaton-net
 
