@@ -1,0 +1,21 @@
+{
+  "unversionedId": "getstarted",
+  "id": "getstarted",
+  "isDocsHomePage": false,
+  "title": "Get Started",
+  "description": "Swagger 2",
+  "source": "@site/docs/getstarted.md",
+  "slug": "/getstarted",
+  "permalink": "/docs/getstarted",
+  "version": "current",
+  "sidebar_label": "Get Started",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Concepts",
+    "permalink": "/docs/concepts"
+  },
+  "next": {
+    "title": "Maquettes",
+    "permalink": "/docs/maquettes"
+  }
+}

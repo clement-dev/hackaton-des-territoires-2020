@@ -1,0 +1,303 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/clement/Desktop/hackaton/docs/sidebars.js",
+          "docsDirPath": "/home/clement/Desktop/hackaton/docs/docs",
+          "mainDocId": "concepts",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "concepts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getstarted"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Frontend",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "maquettes"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Backend",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/api": "someSidebar",
+            "/docs/concepts": "someSidebar",
+            "/docs/getstarted": "someSidebar",
+            "/docs/maquettes": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "api",
+              "id": "api",
+              "isDocsHomePage": false,
+              "title": "API",
+              "description": "Api",
+              "source": "@site/docs/api.md",
+              "slug": "/api",
+              "permalink": "/docs/api",
+              "version": "current",
+              "sidebar_label": "API",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Maquettes",
+                "permalink": "/docs/maquettes"
+              }
+            },
+            {
+              "unversionedId": "concepts",
+              "id": "concepts",
+              "isDocsHomePage": false,
+              "title": "Concepts",
+              "description": "Swagger",
+              "source": "@site/docs/concepts.md",
+              "slug": "/concepts",
+              "permalink": "/docs/concepts",
+              "version": "current",
+              "sidebar_label": "Concepts",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Get Started",
+                "permalink": "/docs/getstarted"
+              }
+            },
+            {
+              "unversionedId": "getstarted",
+              "id": "getstarted",
+              "isDocsHomePage": false,
+              "title": "Get Started",
+              "description": "Swagger 2",
+              "source": "@site/docs/getstarted.md",
+              "slug": "/getstarted",
+              "permalink": "/docs/getstarted",
+              "version": "current",
+              "sidebar_label": "Get Started",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Concepts",
+                "permalink": "/docs/concepts"
+              },
+              "next": {
+                "title": "Maquettes",
+                "permalink": "/docs/maquettes"
+              }
+            },
+            {
+              "unversionedId": "maquettes",
+              "id": "maquettes",
+              "isDocsHomePage": false,
+              "title": "Maquettes",
+              "description": "Swagger 3",
+              "source": "@site/docs/maquettes.md",
+              "slug": "/maquettes",
+              "permalink": "/docs/maquettes",
+              "version": "current",
+              "sidebar_label": "Maquettes",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Get Started",
+                "permalink": "/docs/getstarted"
+              },
+              "next": {
+                "title": "API",
+                "permalink": "/docs/api"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hello",
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "title": "Hola",
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

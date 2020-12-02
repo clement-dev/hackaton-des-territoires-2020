@@ -1,0 +1,13 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "isDocsHomePage": false,
+  "title": "Concepts",
+  "description": "Swagger",
+  "source": "@site/docs/intro.md",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "version": "current",
+  "sidebar_label": "Concepts",
+  "sidebar": "someSidebar"
+}

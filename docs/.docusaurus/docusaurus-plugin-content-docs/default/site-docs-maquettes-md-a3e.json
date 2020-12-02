@@ -1,0 +1,21 @@
+{
+  "unversionedId": "maquettes",
+  "id": "maquettes",
+  "isDocsHomePage": false,
+  "title": "Maquettes",
+  "description": "Swagger 3",
+  "source": "@site/docs/maquettes.md",
+  "slug": "/maquettes",
+  "permalink": "/docs/maquettes",
+  "version": "current",
+  "sidebar_label": "Maquettes",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Get Started",
+    "permalink": "/docs/getstarted"
+  },
+  "next": {
+    "title": "API",
+    "permalink": "/docs/api"
+  }
+}

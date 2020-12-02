@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  kdatadoc:
+    build: .
+    ports:
+      - 0.0.0.0:3000:3000
+      - 35729:35729
+    networks:
+      - doc-net
+    working_dir: /app/website
+  
+networks:
+  doc-net:

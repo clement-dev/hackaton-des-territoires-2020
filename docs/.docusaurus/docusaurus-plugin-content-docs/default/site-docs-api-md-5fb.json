@@ -1,0 +1,17 @@
+{
+  "unversionedId": "api",
+  "id": "api",
+  "isDocsHomePage": false,
+  "title": "API",
+  "description": "Api",
+  "source": "@site/docs/api.md",
+  "slug": "/api",
+  "permalink": "/docs/api",
+  "version": "current",
+  "sidebar_label": "API",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Maquettes",
+    "permalink": "/docs/maquettes"
+  }
+}

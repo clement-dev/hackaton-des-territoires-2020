@@ -1,0 +1,50 @@
+version: "3.7"
+
+services:
+  # api:
+  #   build:
+  #     context: api
+  #     dockerfile: ./.docker/Dockerfile.dev
+  #   image: "clement-dev/knowledgegraph-api:0.0.0"
+  #   ports:
+  #     - "0.0.0.0:4000:4000"
+  #   volumes:
+  #     - ./api/src:/app/src
+  #   networks:
+  #     - hackaton-net
+
+  database:
+    build:
+      context: ./backend/database
+      dockerfile: ./.docker/Dockerfile.dev
+    image: "clement-dev/hackaton-database:0.0.0"
+    ports:
+      - "0.0.0.0:7687:7687"
+      - "0.0.0.0:7474:7474"
+    environment:
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_apoc_import_file_enabled=true
+      - NEO4J_dbms_shell_enabled=true
+      - NEO4J_AUTH=neo4j/admin
+    volumes:
+      - ./backend/database/plugins:/var/lib/neo4j/plugins
+      - ./backend/database/data:/var/lib/neo4j/data
+      - ./backend/database/import:/var/lib/neo4j/import
+      - ./backend/database/conf:/var/lib/neo4j/conf
+    networks:
+      - hackaton-net
+
+  kdatadoc:
+    build:
+      context: ./docs
+      dockerfile: ./Dockerfile
+    image: "clement-dev/hackaton-docs:0.0.0"
+    ports:
+      - 0.0.0.0:3000:3000
+      - 35729:35729
+    networks:
+      - hackaton-net
+    working_dir: /app/website
+  
+networks:
+  hackaton-net:

@@ -1,0 +1,34 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "concepts",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/docs/api"
+            },
+            {
+              "id": "concepts",
+              "path": "/docs/concepts"
+            },
+            {
+              "id": "getstarted",
+              "path": "/docs/getstarted"
+            },
+            {
+              "id": "maquettes",
+              "path": "/docs/maquettes"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

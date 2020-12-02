@@ -1,0 +1,17 @@
+{
+  "unversionedId": "concepts",
+  "id": "concepts",
+  "isDocsHomePage": false,
+  "title": "Concepts",
+  "description": "Swagger",
+  "source": "@site/docs/concepts.md",
+  "slug": "/concepts",
+  "permalink": "/docs/concepts",
+  "version": "current",
+  "sidebar_label": "Concepts",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Get Started",
+    "permalink": "/docs/getstarted"
+  }
+}
