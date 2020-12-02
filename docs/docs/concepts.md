@@ -34,3 +34,8 @@ On vient associer aux personnes de plus de 85 ans le besoin d'un ventilateur pou
 Si Commune a vaccins < 2000 a besoin de vaccins
 ```
 On vient associer aux communes qui possèdent moins de 2000 vaccins la nécessité de s'approvisionner à nouveau et le besoin de vaccin est associé aux entités correspondantes
+
+## Notifications
+
+Lorsqu'il y a la possibilité de notifier à un utilisateur qu'il y a une solution possible pour répondre à son besoin on lui pousse la solution la plus pertinente via une notification. 
+*Exemple: Le magasin le plus pertinent pour trouver un ventilateur, les villes qui possèdent des stocks de vaccins...*
